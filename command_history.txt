@@ -1,0 +1,28 @@
+    1  cd /home/etokomu/project/PetNurserySystem
+    2  cat > "Вьючные животные.txt"
+    3  Лошадь Буцефал
+    4  Верблюд Горбатый
+    5  Осел Иа
+    6  Лошадь Звезда
+    7  Верблюд Дюна
+    8  Осел Ослик
+    9  clear
+   10  cat > "Вьючные животные.txt"
+   11  cat > "Домашние животные.txt"
+   12  cat "Домашние животные.txt" "Вьючные животные.txt" > "Все животные.txt"
+   13  cat "Все животные.txt"
+   14  clear
+   15  mv "Все животные.txt" "Друзья человека.txt"
+   16  mkdir data
+   17  mv "Друзья человека.txt" data/
+   18  wget https://dev.mysql.com/get/mysql-apt-config_0.8.34-1_all.deb
+   19  sudo dpkg -i mysql-apt-config_0.8.34-1_all.deb 
+   20  sudo apt update
+   21  sudo apt install mysql-server
+   22  rm mysql-apt-config_0.8.34-1_all.deb
+   23  apt download gnome-mines
+   24  sudo dpkg -i gnome-mines_1%3a40.1-1build2_amd64.deb 
+   25  sudo dpkg -r gnome-mines
+   26  rm gnome-mines_1%3a40.1-1build2_amd64.deb
+   27  history
+   28  history > command_history.txt
